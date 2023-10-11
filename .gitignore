@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pycache__
+*.py[cod]
+*.pyc
+
+# C extensions
+construction_manager/*.so
+
+# Distribution / packaging
+.idea
+construction_manager/env
+construction_manager/bin/
+construction_manager/build/
+construction_manager/develop-eggs/
+construction_manager/dist/
+construction_manager/eggs/
+construction_manager/lib/
+construction_manager/lib64/
+construction_manager/parts/
+construction_manager/sdist/
+construction_manager/var/
+construction_manager/*.egg-info/
+construction_manager/.installed.cfg
+construction_manager/*.egg
+
+# Installer logs
+construction_manager/pip-log.txt
+construction_manager/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+construction_manager/.tox/
+construction_manager/.coverage
+construction_manager/.cache
+construction_manager/nosetests.xml
+construction_manager/coverage.xml
+
+# Translations
+construction_manager/*.mo
+
+# Mr Developer
+construction_manager/.mr.developer.cfg
+construction_manager/.project
+construction_manager/.pydevproject
+
+# Rope
+construction_manager/*.ropeproject
+
+# Django stuff:
+construction_manager/*.log
+construction_manager/*.pot
+
+# Sphinx documentation
+construction_manager/docs/_build/
+
+db.sqlite3
+ construction_manager/construction_manager/__pycache__
+ construction_manager/*/__pycache__
+
+
+
+# env
+/.env
+/env/
+/**/migrations/**
+/!**/migrations
+/public/
+/static/
+/manage.py
+/public/employee_images/
+/public/images/
+/public/videos/
+/.idea/
+/.vscode/
+/../.idea/
+/.DS_Store
+/.idea
+/celerybeat-schedule
+/celerybeat.pid
+
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+.DS_Store
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+yarn.lock
+
+commit.sh
